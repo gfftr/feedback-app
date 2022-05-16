@@ -1,11 +1,13 @@
 import Header from './components/Header'
+import FeedbackItem from './components/FeedbackItem'
 
 function App() {
   return (
     <div>
-      <Header>
-        <h1>Hello from the app component</h1>
-      </Header>
+      <Header className='card' />
+      <div className='container'>
+        <FeedbackItem />
+      </div>
     </div>
   )
 }
